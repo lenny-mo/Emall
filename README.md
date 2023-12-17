@@ -38,8 +38,9 @@
 
 ## 3 采用的技术点
 
-### 3.1 乐观锁 + 雪花算法生成 UUID 保证下单幂等性
-代码位置：
+### 3.1 乐观锁 + google UUID 保证下单幂等性
+代码位置：UpdateOrder
+https://github.com/lenny-mo/order/blob/main/domain/dao/order.go#L42
 
 
 
